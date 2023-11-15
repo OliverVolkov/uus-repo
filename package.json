@@ -1,12 +1,20 @@
-"scripts": {
-
-  "start": "vite"
-}
-
 {
+  "name": "uus-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "sass": "^1.69.5",
+    "vite": "^4.5.0"
+  },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.2"
   }
 }
-
