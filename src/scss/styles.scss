@@ -1,1 +1,20 @@
-@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+$primary: rgb(131, 241, 104);
+$secondary: rgb(52, 136, 246);
+
+$theme-colors:(
+    "primary": $primary,
+    "secondary": $secondary,
+);
+    
+/* lisasin uue värvi tooni koos uue nimega ja panin ta
+ uhenduma theme coloritega*/
+
+    $brand:(
+        "brand": #ea1515
+    );
+    $theme-colors: map-merge($theme-colors, $brand);
+;
+    @import "bootstrap/scss/bootstrap";
